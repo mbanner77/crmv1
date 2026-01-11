@@ -5,6 +5,10 @@ import React from "react";
 interface Contact {
   id: string;
   name: string;
+  email: string;
+  phone: string;
+  tags: string[];
+  activities: string[];
 }
 
 interface ContactListProps {
